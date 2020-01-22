@@ -1,0 +1,11 @@
+h1{
+	text-align: center;
+	color: #708090;
+}
+h2{
+	text-shadow: 2px 2px #808080;
+	color: #000080;
+}
+ol{
+	list-style-image: url("imgs/tinyM.png");
+}
