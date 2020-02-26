@@ -15,9 +15,12 @@
 		document.getElementById("time").innerHTML = Date();
 		document.body.style.backgroundColor = "purple";
 		document.body.style.margin = "50px 10px 20px 30px"; 
-		function copyFunction(){
-			document.getElementById("cheer").innerHTML += "Go Blue \n";
+		document.oncopy = function(){
+			document.getElementById("cheer").innerHTML += "<br>Go Blue \n";
 		};
+// 		function copyFunction(){
+// 			document.getElementById("cheer").innerHTML += "Go Blue \n";
+// 		};
 		/*
 		1. Change the h1 element to your name.
 		2. Update the three span elements using ONLY JavaScript
